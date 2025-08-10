@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/btnPvP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Pessoa vs Pessoa"
+        android:backgroundTint="@color/VerdeBotao"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnPvAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pessoa vs IA"
+        android:backgroundTint="@color/VerdeBotao"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

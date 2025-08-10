@@ -89,4 +89,15 @@
         android:text="Reiniciar"
         android:textColor="#08FB00" />
 
+
+    <Button
+        android:id="@+id/buttonVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#191B4B"
+        android:text="Voltar"
+        android:textColor="#08FB00" />
+
+
 </LinearLayout>

@@ -9,6 +9,7 @@ import android.view.animation.AnimationUtils
 import android.view.animation.BounceInterpolator
 import android.widget.Button
 import android.widget.TextView
+import android.content.Intent
 
 
 
@@ -44,6 +45,17 @@ class MainActivity : AppCompatActivity() {
         (findViewById(R.id.buttonReset) as Button).setOnClickListener {
             resetGame()
         }
+
+        val buttonBack = findViewById<Button>(R.id.buttonVoltar)
+        buttonBack.setOnClickListener {
+            // Criar intent para abrir a tela de seleção
+            val intent = Intent(this, ModeSelectionActivity::class.java)
+            startActivity(intent)
+
+            // Opcional: fechar essa Activity atual para não acumular na pilha
+            finish()
+        }
+
 
     }
 
@@ -99,6 +111,8 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+
 
 
 }
