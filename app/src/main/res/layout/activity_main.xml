@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Vez do Jogador X"
+        android:textColor="#08FB00"
+        android:textSize="20sp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <!-- 9 botões -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button0"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button3"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button4"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button5"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button6"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button7"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button8"
+            style="@style/TicTacToeButton"
+            android:background="@drawable/botao_arredondado"
+            android:textColor="@color/black" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#191B4B"
+        android:text="Reiniciar"
+        android:textColor="#08FB00" />
+
+</LinearLayout>
