@@ -20,8 +20,14 @@
         android:id="@+id/btnPvAI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="Pessoa vs IA"
         android:backgroundTint="@color/VerdeBotao"
         android:textColor="@color/black"/>
+
+
+
+
+
 
 </LinearLayout>
